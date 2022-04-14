@@ -1,0 +1,1 @@
+C:\Users\Drech\Documents\computer_science\rust\rust-lang-book\chapter_4\understanding_ownership_in_rust\target\debug\understanding_ownership_in_rust.exe: C:\Users\Drech\Documents\computer_science\rust\rust-lang-book\chapter_4\understanding_ownership_in_rust\src\main.rs
