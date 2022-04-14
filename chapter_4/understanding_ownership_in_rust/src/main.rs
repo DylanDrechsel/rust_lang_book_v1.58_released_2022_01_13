@@ -41,7 +41,7 @@ fn main() {
     let word = first_word(&s6);
 
     println!("{}", word);
-    s6.clear()
+    s6.clear();
 
     let a = [1, 2, 3, 4, 5];
     let slice = &a[0..2];
