@@ -44,7 +44,7 @@ fn main() {
     s6.clear();
 
     let a = [1, 2, 3, 4, 5];
-    let slice = &a[0..2];
+    let _slice = &a[0..2];
 }
 
 fn takes_ownership(some_string: String) {
