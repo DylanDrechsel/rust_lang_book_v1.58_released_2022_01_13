@@ -1,0 +1,1 @@
+C:\Users\Drech\Documents\computer_science\rust\rust-lang-book\coding_challenge\sorted_squares\target\debug\sorted_squares.exe: C:\Users\Drech\Documents\computer_science\rust\rust-lang-book\coding_challenge\sorted_squares\src\main.rs

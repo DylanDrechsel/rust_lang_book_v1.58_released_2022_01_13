@@ -11,5 +11,5 @@ fn main() {
     }
 
     // println!("{:#?}", result_vector); --> Printing the vector in a pretty format
-    println!("{}", result_string)
+    println!("{}", result_string);
 }
