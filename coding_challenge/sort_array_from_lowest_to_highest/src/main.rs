@@ -4,25 +4,23 @@
 
 fn main() {
     let array = [13, 5, 67, 43, 10, 80, 55];
+    let array2 = [1, 163, 35, 647, 43, 150, 820, 5534, 78, 45, 254];
 
     let result = sort_array(&array);
+    let result2 = sort_array(&array2);
 
-    println!("{:?}", result)
-    // const length: usize = array.len();
-
-    // sort_array::<length>(&mut array);
-
-    // println!("{:?}", array);
+    println!("{:?}", result);
+    println!("{:?}", result2);
 }
 
-// Only works on a fixed size array so far
-fn sort_array(mut arr: &[i32; 7]) -> [i32; 7] {
-    println!("{:?}", arr);
-    let result = &arr.as_mut();
-    
-    *arr
-}
+fn sort_array(arr: &[i32]) -> Vec<i32> {
+    let mut vector: Vec<i32> = vec![0; arr.len()];
 
-// fn sort_array<const LEN: usize>(arr: &mut [i32]) -> &mut [i32; LEN] {
-//     println!("{:?}", arr)
-// }
+    for (i, number) in arr.iter().enumerate() {
+        vector[i] = *number;
+    }
+
+    vector.sort();
+
+    vector
+}
