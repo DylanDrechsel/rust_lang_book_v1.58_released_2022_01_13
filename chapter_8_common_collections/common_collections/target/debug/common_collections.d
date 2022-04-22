@@ -1,0 +1,1 @@
+C:\Users\Drech\Documents\computer_science\rust\rust-lang-book\chapter_8_common_collections\common_collections\target\debug\common_collections.exe: C:\Users\Drech\Documents\computer_science\rust\rust-lang-book\chapter_8_common_collections\common_collections\src\main.rs
