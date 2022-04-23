@@ -182,9 +182,38 @@ fn main() {
         }
        }
 
+       println!("--------------- ");
+
        // Updating HashMap
        {
+        let mut scores: HashMap<String, i32> = HashMap::new();
 
+        scores.insert(String::from("Blue"), 10);
+        scores.insert(String::from("Blue"), 20);
+
+        scores.entry(String::from("Yellow")).or_insert(30);
+        scores.entry(String::from("Yellow")).or_insert(40);
+
+        println!("{:?}", scores);
+       }
+
+       println!("--------------- ");
+
+       // Updating Values in a HashMap based on an Old Value
+       {
+        let text = "hello world wonderful world";
+
+        let mut map: HashMap<&str, i32> = HashMap::new();
+
+        println!("{:?}", text.split_whitespace());
+
+        for word in text.split_whitespace() {
+            println!("{}", word);
+            let count = map.entry(word).or_insert(0);
+            *count += 1;
+        }
+
+        println!("{:?}", map)
        }
     }
 }
