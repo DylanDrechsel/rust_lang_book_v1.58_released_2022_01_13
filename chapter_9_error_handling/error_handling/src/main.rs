@@ -1,7 +1,17 @@
 // Backtrace will liust out all the functions call leading up to the erroring code
+// $env:RUST_BACKTRACE=1 --> PowerShell
+// RUST_BACKTRACE=1 cargo run
 
 fn main() {
-    a();
+    // Error Handling --> RUST_BACKTRACE
+    {
+        a();
+    }
+
+    // Handling Errors Gracefully
+    {
+
+    }
 }
 
 fn a() {
