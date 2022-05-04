@@ -39,7 +39,7 @@ fn add_array(a1: &Vec<i64>, a2: &Vec<i64>) -> Vec<i64> {
     //         println!("{}", small_array[i]);
     //         result.push(*num + small_array[i]);
     //         break;
-    //     }
+    //     } 
     //     result.push(*num);
     // }
 
