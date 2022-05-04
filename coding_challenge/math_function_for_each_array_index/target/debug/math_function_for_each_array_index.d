@@ -1,0 +1,1 @@
+C:\Users\Drech\Documents\computer_science\rust\rust-lang-book\coding_challenge\math_function_for_each_array_index\target\debug\math_function_for_each_array_index.exe: C:\Users\Drech\Documents\computer_science\rust\rust-lang-book\coding_challenge\math_function_for_each_array_index\src\main.rs
